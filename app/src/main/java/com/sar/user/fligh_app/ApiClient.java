@@ -54,6 +54,11 @@ public class ApiClient {
        });
        okHttpClient=httpClient.build();
     }
+    private static void restApiClient()
+    {
+        retrofit=null;
+        okHttpClient=null;
+    }
 
 
 }

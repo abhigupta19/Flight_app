@@ -44,5 +44,5 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:4.3.1"
 
     // spinner loaders library
-    implementation "org.webjars.bowergithub.tobiasahlin:spinkit:1.2.5"
+    implementation  'com.github.ybq:Android-SpinKit:1.4.0'
 }

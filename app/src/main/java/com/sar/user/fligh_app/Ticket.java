@@ -15,6 +15,27 @@ public class Ticket {
     private String departure;
     private String arrival;
     private String duration;
+
+    Airline airline;
+
+    Price price;
+
+    public Airline getAirline() {
+        return airline;
+    }
+
+    public void setAirline(Airline airline) {
+        this.airline = airline;
+    }
+
+    public Price getPrice() {
+        return price;
+    }
+
+    public void setPrice(Price price) {
+        this.price = price;
+    }
+
     private String instructions;
     @SerializedName("stops")
     private int stops;
@@ -75,7 +96,7 @@ public class Ticket {
         this.instructions = instructions;
     }
 
-    public int getStops() {
+    public int getNumberOfStops() {
         return stops;
     }
 
