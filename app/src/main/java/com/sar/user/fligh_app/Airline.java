@@ -1,11 +1,11 @@
 package com.sar.user.fligh_app;
 
 public class Airline {
-    private Integer id;
+    private int id;
     private String name;
     private String logo;
 
-    public Integer getId() {
+    public  int getId() {
         return id;
     }
 
