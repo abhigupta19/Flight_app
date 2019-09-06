@@ -103,7 +103,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:paddingRight="8dp"
-                    android:src="@drawable/ic_arrow_forward_black_24dp"
+
                     android:tint="@color/tint_arrow" />
 
                 <TextView

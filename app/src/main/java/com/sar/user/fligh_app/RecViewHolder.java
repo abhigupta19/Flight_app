@@ -17,7 +17,7 @@ import butterknife.ButterKnife;
 public class RecViewHolder extends RecyclerView.ViewHolder {
     private Context context;
     private List<Ticket> contactList;
-    private TicketsAdapterListener listener;
+    private RecAdapter.TicketsAdapterListener listener;
     @BindView(R.id.airline_name)
     TextView airlineName;
 
@@ -56,8 +56,6 @@ public class RecViewHolder extends RecyclerView.ViewHolder {
         });
 
     }
-    public interface TicketsAdapterListener {
-        void onTicketSelected(Ticket contact);
-    }
+
 
 }

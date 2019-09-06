@@ -3,13 +3,15 @@ package com.sar.user.fligh_app;
 import com.google.gson.annotations.SerializedName;
 
 public class Price {
-    private int price;
-    private int seats;
-    private String currency;
-    private String flightNumber;
-    private String from;
+     float price;
+    int seats;
+     String currency;
     @SerializedName("flight_number")
-    public String getFlightNumber() {
+     String flightNumber;
+    String from;
+    String to;
+    public String getFlightNumber()
+    {
         return flightNumber;
     }
 
@@ -33,12 +35,12 @@ public class Price {
         this.to = to;
     }
 
-    private String to;
-    public int getPrice() {
+
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 

@@ -21,7 +21,7 @@ public class ApiClient {
     private static Retrofit retrofit;
     private static OkHttpClient okHttpClient;
 
-    public  static Retrofit getClient(Retrofit retrofit)
+    public  static Retrofit getClient()
     {
         if(okHttpClient==null)
         {
