@@ -6,3 +6,4 @@ In the Airline Tickets example, we need to make multiple dependent HTTP calls to
 
 Let’s say we have 20 tickets available, all the 20 tickets will be fetched in first HTTP call. Next, 20 subsequent HTTP calls will be made parallelly to fetch the price and seats information.
 Using Rxjava,Retrofit,okhttpclient,spinkit,glide,butterknife.
+
